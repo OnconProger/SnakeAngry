@@ -1,0 +1,325 @@
+nav{
+    background: #FFA500;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    height: 95px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+body{
+    background: url('../images/headerphone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    margin-top: 10px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a span{
+    color: #008000;
+    font-size: 45px;
+}
+.logo a h1{
+    color: #fff;
+    font-size: 45px;
+}
+.logo a img{
+    width: 60px;
+    margin-right: 120px;
+}
+.nav__text a{
+    text-decoration: none;
+}
+.nav__text a h3{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 26px;
+    margin-right: 75px;
+}
+.nav__text a h3:hover{
+    color: #008000;
+    transition: 0.6s;
+}
+.container{
+    display: flex;
+}
+.nav__text{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 25px;
+}
+header{
+    /* background: url('../images/headerphone.png'); */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+.header__text h2{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 60px;
+}
+.header__text h2 span{
+    color: #008000;
+}
+.header__text h5{
+    margin-left: 170px;
+    color: #fff;
+}
+.header__gta h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 570px;
+    font-size: 35px;
+}
+.header__stolb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__stolb h4{
+    margin-top: 100px;
+    margin-right: 150px;
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 170px;
+}
+.header__gta h3 span{
+    border: 1px solid #fff;
+    font-size: 15px;
+    border-radius: 0 14px 0 14px;
+    padding: 0 5px 0 5px;
+}
+.stolb__img img{
+    width: 400px;
+    position: absolute;
+    top: 163px;
+    right: 220px;
+        
+}
+.header__text button{
+    margin-top: 100px;
+    margin-left: 320px;
+    width: 230px;
+    height: 60px;
+    background: none;
+    font-size: 20px;
+    border-radius: 40px;
+    font-weight: bold;
+    transition: 0.6s;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.header__text button:hover{
+    background: #fff;
+    color: orangered;
+}
+.palace{
+    width: 100%;
+    height: 50px;
+    background: #32CD32;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.palace h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+.cvadrat{
+    background: url('../images/headerbg.jpg');
+    border-radius: 25px;
+    border: 1px solid #ffa436;
+    width: 360px;
+    height: 350px;
+   margin: 50px auto; 
+}
+.cvadrat a img{
+    width: 300px;
+    margin-left: 37px;
+}
+.cvadrat a{
+    text-decoration: none;
+}
+.cvadrat a h3{
+    margin-left: 90px;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.row{
+    margin-left: 11px;
+    border: none;
+}
+.sec__text h3{
+    color: #fff;
+    margin-top: 40px;
+    
+}
+.sec__text img{
+    position: absolute;
+    width: 350px;
+    top: 1423px;
+    right: 200px;
+}
+.seven{
+    margin-bottom: 45px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.yt{
+   font-size: 150px; 
+   margin-right: 115px;
+   color: red;
+   margin-left: 45px;
+}
+.vk{
+    font-size: 150px;   
+    margin-right: 115px;
+    color: #054cff;
+}
+.inst{
+    font-size: 150px;   
+    margin-right: 115px;
+    color: #eb8d00;
+}
+.tg{
+    font-size: 150px;   
+    margin-right: 115px;
+    color: cyan;
+}
+.contact a img{
+    width: 150px;
+    margin-top: 45px;
+}
+footer h3{
+    font-size: 11px;
+    color: silver;
+}
+footer h4{
+    font-size: 19px;
+    width: 450px;
+    color: #fff;
+    align-content: center;
+    margin-left: 38%;
+}
+
+.kak__text{
+    margin-top: 100px;
+    text-align: center;
+}
+.kak__text h3,
+.kak__text h1,
+.kak__text h2{
+    color: #fff;
+}
+.photo{
+    width: 450px;
+}
+.polace{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    background: #32CD32;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .row h3,
+.lvl .row h3{
+    color: #fff;
+    text-align: center;
+}
+header .row img,
+.lvl .row img{
+    width: 298px;
+    height: 265px;
+    position: relative;
+    left: -12px;
+}
+header .row h4,
+.lvl .row .h4{
+    color: #fff;
+    text-align: center;
+}
+header .row .col-xl-4,
+.lvl .row .col-xl-4{
+    border: 1px solid #fff;
+    background: url('../images/headerbg.jpg');
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+header .row .col-xl-4:hover{
+    box-shadow: 0px 0px 29px -1px rgba(7, 253, 90, 0.52);
+    border: 1px solid #eb8d00;
+    transition: 0.5s;
+    margin-top: 15px;
+}
+header .container{
+    /* border: 1px solid red; */
+}
+.buttons_money a button{
+    width: 130px;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-size: 18px;
+    height:58px;
+    color: #fff;
+    background: none;
+}
+.buttons_money{
+    display: flex;
+    justify-content: center;
+}
+.buy__vk{
+    background: #6fa8fc;
+}
+.buy__vk:hover,
+.buy__tg:hover{
+    background: #fff;
+    color: orangered;
+    transition: 0.5s;
+}
+.buy__tg{
+    background: #6fa8fc;
+}
+header .row{
+    display: flex;
+    justify-content: center;
+}
+/* .dengi__img{
+    position: relative;
+    width: 300px;
+} */
+section .row{
+   margin: 0 auto;
+}
+section .row .cvadrat:hover{
+    box-shadow: 0px 0px 29px -1px rgba(255, 166, 1, 0.863);
+    transition: 0.5s;
+}
+.babuin .row{
+    margin: 0 auto;
+}
+.babuin .row .col-xl-4{
+    margin: 25px 50px 25px 50px;
+}
